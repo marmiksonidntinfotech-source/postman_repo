@@ -3392,54 +3392,6 @@
 				}
 			],
 			"id": "7aa13d01-3900-4188-9684-11415abff5e6"
-		},
-		{
-			"name": "marmik",
-			"id": "d20c69c7-3e10-4024-9f22-d419811b6dfb",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": {
-						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6MSwiRmlyc3RuYW1lIjoiQUlUTCIsIkxhc3RuYW1lIjoiVXNlciIsIkVtYWlsIjoidGVzdC5haXRsQHlvcG1haWwuY29tIiwiaXNFbWFpbFZlcmlmaWVkIjpmYWxzZSwib3JnYW5pemF0aW9uSWQiOm51bGwsInVzZXJSb2xlIjpudWxsLCJvcmdhbml6YXRpb25Vc2VyUm9sZSI6bnVsbCwiaWF0IjoxNzY4NDU4ODQyLCJleHAiOjE3OTk5OTQ4NDJ9.PMjrcBMzJLYs4Xe-U5wGzFYzpm5EDNNrTIaRRvtP0FU"
-					}
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "Screen-2",
-							"type": "text",
-							"uuid": "a88f6ca1-a36d-46b8-99ec-f4b9d409d120"
-						},
-						{
-							"key": "eventId",
-							"value": "4333",
-							"type": "text",
-							"uuid": "e89ad2e4-2ccd-4442-9e51-ee1b23c90fc3"
-						},
-						{
-							"key": "isActive",
-							"value": "true",
-							"type": "text",
-							"uuid": "5ff694af-150d-4c85-97f2-11129e959c80"
-						},
-						{
-							"key": "screenImage",
-							"type": "file",
-							"uuid": "67e22400-2852-47f6-aed8-47c7102ac0b3",
-							"src": "/C:/Users/Dnt/Desktop/8_1sasa11.jpg"
-						}
-					]
-				},
-				"url": "{{baseURL}}/"
-			},
-			"response": []
 		}
 	],
 	"variable": [
