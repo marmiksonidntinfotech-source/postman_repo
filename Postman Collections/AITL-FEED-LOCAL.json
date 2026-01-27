@@ -1491,6 +1491,59 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "deleteOrganizationUser",
+					"id": "505a3682-51fc-4e49-b648-e5bb9cd6e0e5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/v1.0/organization/user/107?organizationId=33",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"v1.0",
+								"organization",
+								"user",
+								"107"
+							],
+							"query": [
+								{
+									"key": "organizationId",
+									"value": "33"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "transferOwner",
+					"id": "aab9abb4-6e44-4fe2-b918-2c5ece515edc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"currentOwnerId\": 106,\r\n  \"newOwnerId\": 108,\r\n  \"organizationId\": 33\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseURL}}/api/v1.0/organization/transfer-ownership"
+					},
+					"response": []
 				}
 			],
 			"id": "51f6bad2-8db8-4721-8cee-b513b38e497c"
